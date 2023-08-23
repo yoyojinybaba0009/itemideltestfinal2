@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Itemideltestfinal"
+        tools:targetApi="31">
+        <activity
+            android:name=".ResumMainActivity20"
+            android:exported="false" />
+        <activity
+            android:name=".ResumMainActivity19"
+            android:exported="false" />
+        <activity
+            android:name=".ResumMainActivity18"
+            android:exported="false" />
+        <activity
+            android:name=".ResumMainActivity17"
+            android:exported="false" />
+        <activity
+            android:name=".ResuMainActivity16"
+            android:exported="false" />
+        <activity
+            android:name=".ResuMainActivity15"
+            android:exported="false" />
+        <activity
+            android:name=".ResuMainActivity14"
+            android:exported="false" />
+        <activity
+            android:name=".ResuMainActivity13"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity12"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".QuestMainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Itemideltestfinal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
