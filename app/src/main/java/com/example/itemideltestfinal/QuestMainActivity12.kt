@@ -130,6 +130,8 @@ class QuestMainActivity12 : ComponentActivity() {
                             ) {
                                 Text(
                                     text = "최종 결과 확인",
+
+
                                     fontSize = 15.sp
                                 )
                             }
